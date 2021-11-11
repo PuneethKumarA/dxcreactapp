@@ -17,6 +17,8 @@ import './appStyles.css'
 import styles from './appStyles.module.css'
 import Fragments from './components/Fragments';
 import NewTable from './components/NewTable';
+import PureComp from './components/PureComp';
+import Parentcomp from './components/ParentComp';
 
 
 
@@ -24,7 +26,7 @@ import NewTable from './components/NewTable';
 function App() {
   return (
     <div className="App">
-    <NewTable/>
+      <Parentcomp/>
 
     </div>
 
