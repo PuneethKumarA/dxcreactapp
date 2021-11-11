@@ -11,7 +11,7 @@ const heading = {
 function Inline() {
     return (
         <div>
-            <h1 style = {heading}>Heading</h1>
+            <h1 style = {heading}>Inline Heading</h1>
         </div>
     )
 }
