@@ -13,6 +13,8 @@ import NameList from './components/NameList';
 import Table from './components/Table';
 import Stylesheet from './components/StyleSheet';
 import Inline from './components/Inline';
+import './appStyles.css'
+import styles from './appStyles.module.css'
 
 
 
@@ -20,6 +22,10 @@ import Inline from './components/Inline';
 function App() {
   return (
     <div className="App">
+
+    <h1 className = {styles.success}>success</h1>
+    <h1 className = 'error'>error</h1>
+
       <Inline/>
       <Stylesheet  enabled = {true}/>
       <Table/>
