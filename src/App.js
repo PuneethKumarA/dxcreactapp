@@ -15,6 +15,7 @@ import Stylesheet from './components/StyleSheet';
 import Inline from './components/Inline';
 import './appStyles.css'
 import styles from './appStyles.module.css'
+import Fragments from './components/Fragments';
 
 
 
@@ -22,6 +23,7 @@ import styles from './appStyles.module.css'
 function App() {
   return (
     <div className="App">
+    <Fragments/>
 
     <h1 className = {styles.success}>success</h1>
     <h1 className = 'error'>error</h1>
