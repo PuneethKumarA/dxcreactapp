@@ -16,6 +16,7 @@ import Inline from './components/Inline';
 import './appStyles.css'
 import styles from './appStyles.module.css'
 import Fragments from './components/Fragments';
+import NewTable from './components/NewTable';
 
 
 
@@ -23,20 +24,8 @@ import Fragments from './components/Fragments';
 function App() {
   return (
     <div className="App">
-    <Fragments/>
+    <NewTable/>
 
-    <h1 className = {styles.success}>success</h1>
-    <h1 className = 'error'>error</h1>
-
-      <Inline/>
-      <Stylesheet  enabled = {true}/>
-      <Table/>
-      <NameList/>
-      <UserGreeting/>
-      <ParentComponent/>
-      <EventBind/>
-      
-      
     </div>
 
   );
