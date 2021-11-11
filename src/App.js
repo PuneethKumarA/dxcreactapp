@@ -19,6 +19,7 @@ import Fragments from './components/Fragments';
 import NewTable from './components/NewTable';
 import PureComp from './components/PureComp';
 import Parentcomp from './components/ParentComp';
+import Form from './components/Form';
 
 
 
@@ -26,7 +27,18 @@ import Parentcomp from './components/ParentComp';
 function App() {
   return (
     <div className="App">
-      <Parentcomp/>
+      <Form/>
+
+      <h1 className={styles.success}>success</h1>
+      <h1 className='error'>error</h1>
+
+      <Inline />
+      <Stylesheet enabled={true} />
+      <Table />
+      <NameList />
+      <UserGreeting />
+      <ParentComponent />
+      <EventBind />
 
     </div>
 
