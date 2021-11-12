@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-import RefsDemo from './components/RefsDemo';
+import RefsDemo from './components/refs/RefsDemo';
 import FocusInput from './components/refs/FocusInput';
 import Input from './components/refs/Input';
 
@@ -13,6 +13,7 @@ function App() {
     <div className="App">
       <FocusInput/>
       <Input/>
+      <RefsDemo/>
 
     </div>
 
